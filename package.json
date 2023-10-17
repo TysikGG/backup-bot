@@ -1,0 +1,17 @@
+{
+  "name": "backup_bot",
+  "version": "1.0.0",
+  "description": "Backup bot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^14.13.0",
+    "local-storage": "^2.0.0",
+    "node-schedule": "^2.1.1"
+  }
+}
