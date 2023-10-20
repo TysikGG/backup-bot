@@ -11,6 +11,6 @@ module.exports = {
         options.file_name = ls.get(interaction.message.id)[1];
         options.full_backup = ls.get(interaction.message.id)[2];
         await loadChannelsBackup(interaction.guild, options, interaction);
-        await interaction.channel.send('Успешно загружены каналы!').catch(console.log)
+        // await interaction.channel.send('Успешно загружены каналы!').catch(console.log)
     }
 };

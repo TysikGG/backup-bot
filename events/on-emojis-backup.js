@@ -9,8 +9,7 @@ module.exports = {
         if (!checkAdminPermissions(interaction.member)) return;
         if (ls.get(interaction.message.id)[0].id != interaction.user.id) return;
         options.file_name = ls.get(interaction.message.id)[1];
-        await interaction.deferReply()
         await loadEmojis(interaction.guild, options);
-        await interaction.editReply('Успешно загружены эмодзи!');
+        await interaction.update({content: 'Успешно загружены эмодзи!', components: []});
     }
 };

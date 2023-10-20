@@ -1,0 +1,315 @@
+{
+  "createdTimestamp": 1697651239818,
+  "channels": [
+    {
+      "id": "1160487005013151786",
+      "name": "общее",
+      "type": 0,
+      "topic": null,
+      "nsfw": false,
+      "position": 0,
+      "parent": {
+        "type": 4,
+        "guild": "1155890893434409001",
+        "guildId": "1155890893434409001",
+        "permissionOverwrites": [],
+        "flags": 0,
+        "id": "1164258105345982626",
+        "name": "Голосовые каналы",
+        "rawPosition": 0,
+        "parentId": null,
+        "oldId": "1164241748856418364",
+        "createdTimestamp": 1697651163184
+      },
+      "rateLimitPerUser": 0,
+      "permissions": []
+    },
+    {
+      "id": "1160495553289912361",
+      "name": "клипы-и-основные-моменты",
+      "type": 0,
+      "topic": null,
+      "nsfw": false,
+      "position": 1,
+      "parent": null,
+      "rateLimitPerUser": 0,
+      "permissions": []
+    },
+    {
+      "id": "1164258102946832425",
+      "name": "Текстовые каналы",
+      "type": 4,
+      "position": 1,
+      "parent": null,
+      "permissions": []
+    },
+    {
+      "id": "1164258105345982626",
+      "name": "Голосовые каналы",
+      "type": 4,
+      "position": 0,
+      "parent": null,
+      "permissions": []
+    },
+    {
+      "id": "1164258107631874108",
+      "name": "общее",
+      "type": 0,
+      "topic": null,
+      "nsfw": false,
+      "position": 1,
+      "parent": {
+        "type": 4,
+        "guild": "1155890893434409001",
+        "guildId": "1155890893434409001",
+        "permissionOverwrites": [],
+        "flags": 0,
+        "id": "1164258105345982626",
+        "name": "Голосовые каналы",
+        "rawPosition": 0,
+        "parentId": null,
+        "oldId": "1164241748856418364",
+        "createdTimestamp": 1697651163184
+      },
+      "rateLimitPerUser": 15,
+      "permissions": []
+    },
+    {
+      "id": "1164258109947121805",
+      "name": "клипы-и-основные-моменты",
+      "type": 0,
+      "topic": null,
+      "nsfw": false,
+      "position": 0,
+      "parent": null,
+      "rateLimitPerUser": 0,
+      "permissions": []
+    },
+    {
+      "id": "1164258112090423357",
+      "name": "Лобби",
+      "type": 2,
+      "nsfw": false,
+      "position": 0,
+      "parent": null,
+      "rateLimitPerUser": 0,
+      "permissions": []
+    },
+    {
+      "id": "1164258114745409706",
+      "name": "123123",
+      "type": 0,
+      "topic": null,
+      "nsfw": false,
+      "position": 0,
+      "parent": {
+        "type": 4,
+        "guild": "1155890893434409001",
+        "guildId": "1155890893434409001",
+        "permissionOverwrites": [],
+        "flags": 0,
+        "id": "1164258102946832425",
+        "name": "Текстовые каналы",
+        "rawPosition": 1,
+        "parentId": null,
+        "oldId": "1164241745656168459",
+        "createdTimestamp": 1697651162612
+      },
+      "rateLimitPerUser": 0,
+      "permissions": [
+        {
+          "name": "@everyone",
+          "allow": "268435472",
+          "deny": "1024"
+        }
+      ]
+    },
+    {
+      "id": "1164258117471719575",
+      "name": "123123",
+      "type": 0,
+      "topic": null,
+      "nsfw": false,
+      "position": 1,
+      "parent": {
+        "type": 4,
+        "guild": "1155890893434409001",
+        "guildId": "1155890893434409001",
+        "permissionOverwrites": [],
+        "flags": 0,
+        "id": "1164258102946832425",
+        "name": "Текстовые каналы",
+        "rawPosition": 1,
+        "parentId": null,
+        "oldId": "1164241745656168459",
+        "createdTimestamp": 1697651162612
+      },
+      "rateLimitPerUser": 0,
+      "permissions": [
+        {
+          "name": "@everyone",
+          "allow": "268436496",
+          "deny": "0"
+        },
+        {
+          "name": "админ",
+          "allow": "0",
+          "deny": "805307408"
+        }
+      ]
+    },
+    {
+      "id": "1164258120428687381",
+      "name": "123123",
+      "type": 0,
+      "topic": null,
+      "nsfw": false,
+      "position": 2,
+      "parent": {
+        "type": 4,
+        "guild": "1155890893434409001",
+        "guildId": "1155890893434409001",
+        "permissionOverwrites": [],
+        "flags": 0,
+        "id": "1164258102946832425",
+        "name": "Текстовые каналы",
+        "rawPosition": 1,
+        "parentId": null,
+        "oldId": "1164241745656168459",
+        "createdTimestamp": 1697651162612
+      },
+      "rateLimitPerUser": 0,
+      "permissions": [
+        {
+          "name": "@everyone",
+          "allow": "268436496",
+          "deny": "0"
+        },
+        {
+          "name": "админ",
+          "allow": "1040",
+          "deny": "805306368"
+        }
+      ]
+    }
+  ],
+  "roles": [
+    {
+      "name": "админ",
+      "color": "#1abc9c",
+      "hoist": true,
+      "permissions": "8",
+      "mentionable": false,
+      "position": 7,
+      "isEveryone": false
+    },
+    {
+      "name": "админ",
+      "color": "#1abc9c",
+      "hoist": true,
+      "permissions": "0",
+      "mentionable": false,
+      "position": 5,
+      "isEveryone": false
+    },
+    {
+      "name": "сми лв",
+      "color": "#3498db",
+      "hoist": false,
+      "permissions": "0",
+      "mentionable": false,
+      "position": 4,
+      "isEveryone": false
+    },
+    {
+      "name": "сми сф",
+      "color": "#2ecc71",
+      "hoist": false,
+      "permissions": "0",
+      "mentionable": false,
+      "position": 3,
+      "isEveryone": false
+    },
+    {
+      "name": "админ",
+      "color": "#1abc9c",
+      "hoist": true,
+      "permissions": "8",
+      "mentionable": false,
+      "position": 2,
+      "isEveryone": false
+    },
+    {
+      "name": "@everyone",
+      "color": "#000000",
+      "hoist": false,
+      "permissions": "533235326373441",
+      "mentionable": false,
+      "position": 0,
+      "isEveryone": true
+    }
+  ],
+  "bans": [
+    {
+      "id": "622347800092606464",
+      "reason": null
+    },
+    {
+      "id": "767072308820312094",
+      "reason": null
+    }
+  ],
+  "emojis": [
+    {
+      "name": "unnamed",
+      "url": "https://cdn.discordapp.com/emojis/1164242992840843436.png"
+    },
+    {
+      "name": "unnamed",
+      "url": "https://cdn.discordapp.com/emojis/1164258003655086260.png"
+    },
+    {
+      "name": "unnamed",
+      "url": "https://cdn.discordapp.com/emojis/1164258051491115130.png"
+    }
+  ],
+  "options": {
+    "name": "Сервер Tysik",
+    "iconURL": null,
+    "preferredLocale": "en-US",
+    "rulesChannelId": {
+      "name": "общее",
+      "type": 0,
+      "topic": null,
+      "nsfw": false,
+      "position": 0,
+      "parent": {
+        "type": 4,
+        "guild": "1155890893434409001",
+        "guildId": "1155890893434409001",
+        "permissionOverwrites": [],
+        "flags": 0,
+        "id": "1164258105345982626",
+        "name": "Голосовые каналы",
+        "rawPosition": 0,
+        "parentId": null,
+        "oldId": "1164241748856418364",
+        "createdTimestamp": 1697651163184
+      },
+      "rateLimitPerUser": 0
+    },
+    "publicUpdatesChannelId": {
+      "name": "клипы-и-основные-моменты",
+      "type": 0,
+      "topic": null,
+      "nsfw": false,
+      "position": 1,
+      "parent": null,
+      "rateLimitPerUser": 0
+    },
+    "mfaLevel": 0,
+    "afkChannelId": null,
+    "afkTimeout": 300,
+    "verificationLevel": 1
+  }
+}

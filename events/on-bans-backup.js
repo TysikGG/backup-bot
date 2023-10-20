@@ -9,8 +9,7 @@ module.exports = {
         if (!checkAdminPermissions(interaction.member)) return;
         if (ls.get(interaction.message.id)[0].id != interaction.user.id) return;
         options.file_name = ls.get(interaction.message.id)[1];
-        await interaction.deferReply()
         await loadBans(interaction.guild, options);
-        await interaction.editReply("Баны успешно загружены!");
+        await interaction.update({content: 'Баны успешно загружены!', components: []});
     }
 }

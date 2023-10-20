@@ -96,7 +96,6 @@ module.exports = {
             };
         };
 
-
-        await interaction.channel.send('Каналы успешно загружены!')
+        await interaction.update({content: 'Каналы успешно загружены!', components: []});
     }
 };

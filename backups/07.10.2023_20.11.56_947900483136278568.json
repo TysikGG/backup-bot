@@ -1,0 +1,511 @@
+{
+  "channels": [
+    {
+      "id": "947900483136278569",
+      "name": "Тестовые каналы",
+      "type": 4,
+      "position": 0,
+      "parent": null,
+      "permissions": [
+        {
+          "name": "@everyone",
+          "allow": "0",
+          "deny": "1024"
+        }
+      ]
+    },
+    {
+      "id": "947900483136278570",
+      "name": "Голосовые каналы",
+      "type": 4,
+      "position": 1,
+      "parent": null,
+      "permissions": []
+    },
+    {
+      "id": "947900483606032444",
+      "name": "Основной",
+      "type": 2,
+      "nsfw": false,
+      "position": 0,
+      "parent": {
+        "type": 4,
+        "guild": "947900483136278568",
+        "guildId": "947900483136278568",
+        "permissionOverwrites": [],
+        "flags": 0,
+        "id": "947900483136278570",
+        "name": "Голосовые каналы",
+        "rawPosition": 0,
+        "parentId": null,
+        "createdTimestamp": 1646067486319
+      },
+      "rateLimitPerUser": 0,
+      "permissions": []
+    },
+    {
+      "id": "950280055223910500",
+      "name": "chatbot",
+      "type": 0,
+      "topic": null,
+      "nsfw": false,
+      "position": 0,
+      "parent": {
+        "type": 4,
+        "guild": "947900483136278568",
+        "guildId": "947900483136278568",
+        "permissionOverwrites": [
+          "947900483136278568"
+        ],
+        "flags": 0,
+        "id": "947900483136278569",
+        "name": "Тестовые каналы",
+        "rawPosition": 0,
+        "parentId": null,
+        "createdTimestamp": 1646067486319
+      },
+      "rateLimitPerUser": 0,
+      "permissions": [
+        {
+          "name": "@everyone",
+          "allow": "0",
+          "deny": "1024"
+        }
+      ]
+    },
+    {
+      "id": "951162784106811465",
+      "name": "nuclear",
+      "type": 0,
+      "topic": null,
+      "nsfw": false,
+      "position": 2,
+      "parent": {
+        "type": 4,
+        "guild": "947900483136278568",
+        "guildId": "947900483136278568",
+        "permissionOverwrites": [
+          "947900483136278568"
+        ],
+        "flags": 0,
+        "id": "947900483136278569",
+        "name": "Тестовые каналы",
+        "rawPosition": 0,
+        "parentId": null,
+        "createdTimestamp": 1646067486319
+      },
+      "rateLimitPerUser": 0,
+      "permissions": [
+        {
+          "name": "@everyone",
+          "allow": "0",
+          "deny": "1024"
+        }
+      ]
+    },
+    {
+      "id": "974961220824211486",
+      "name": "запрос",
+      "type": 0,
+      "topic": null,
+      "nsfw": false,
+      "position": 3,
+      "parent": {
+        "type": 4,
+        "guild": "947900483136278568",
+        "guildId": "947900483136278568",
+        "permissionOverwrites": [
+          "947900483136278568"
+        ],
+        "flags": 0,
+        "id": "947900483136278569",
+        "name": "Тестовые каналы",
+        "rawPosition": 0,
+        "parentId": null,
+        "createdTimestamp": 1646067486319
+      },
+      "rateLimitPerUser": 0,
+      "permissions": [
+        {
+          "name": "@everyone",
+          "allow": "0",
+          "deny": "3072"
+        }
+      ]
+    },
+    {
+      "id": "994588864192725052",
+      "name": "nbotai12",
+      "type": 0,
+      "topic": null,
+      "nsfw": false,
+      "position": 4,
+      "parent": {
+        "type": 4,
+        "guild": "947900483136278568",
+        "guildId": "947900483136278568",
+        "permissionOverwrites": [
+          "947900483136278568"
+        ],
+        "flags": 0,
+        "id": "947900483136278569",
+        "name": "Тестовые каналы",
+        "rawPosition": 0,
+        "parentId": null,
+        "createdTimestamp": 1646067486319
+      },
+      "rateLimitPerUser": 0,
+      "permissions": [
+        {
+          "name": "@everyone",
+          "allow": "0",
+          "deny": "1024"
+        }
+      ]
+    },
+    {
+      "id": "1008638667327275038",
+      "name": "bot",
+      "type": 0,
+      "topic": null,
+      "nsfw": false,
+      "position": 5,
+      "parent": {
+        "type": 4,
+        "guild": "947900483136278568",
+        "guildId": "947900483136278568",
+        "permissionOverwrites": [
+          "947900483136278568"
+        ],
+        "flags": 0,
+        "id": "947900483136278569",
+        "name": "Тестовые каналы",
+        "rawPosition": 0,
+        "parentId": null,
+        "createdTimestamp": 1646067486319
+      },
+      "rateLimitPerUser": 0,
+      "permissions": [
+        {
+          "name": "@everyone",
+          "allow": "0",
+          "deny": "1024"
+        }
+      ]
+    },
+    {
+      "id": "1012026856385544212",
+      "name": "аааа",
+      "type": 0,
+      "topic": null,
+      "nsfw": false,
+      "position": 1,
+      "parent": {
+        "type": 4,
+        "guild": "947900483136278568",
+        "guildId": "947900483136278568",
+        "permissionOverwrites": [
+          "947900483136278568"
+        ],
+        "flags": 0,
+        "id": "947900483136278569",
+        "name": "Тестовые каналы",
+        "rawPosition": 0,
+        "parentId": null,
+        "createdTimestamp": 1646067486319
+      },
+      "rateLimitPerUser": 0,
+      "permissions": [
+        {
+          "name": "@everyone",
+          "allow": "0",
+          "deny": "1024"
+        }
+      ]
+    },
+    {
+      "id": "1012708838870368336",
+      "name": "баги",
+      "type": 0,
+      "topic": null,
+      "nsfw": false,
+      "position": 6,
+      "parent": {
+        "type": 4,
+        "guild": "947900483136278568",
+        "guildId": "947900483136278568",
+        "permissionOverwrites": [
+          "947900483136278568"
+        ],
+        "flags": 0,
+        "id": "947900483136278569",
+        "name": "Тестовые каналы",
+        "rawPosition": 0,
+        "parentId": null,
+        "createdTimestamp": 1646067486319
+      },
+      "rateLimitPerUser": 0,
+      "permissions": [
+        {
+          "name": "@everyone",
+          "allow": "0",
+          "deny": "1024"
+        }
+      ]
+    },
+    {
+      "id": "1014439034740805662",
+      "name": "1111",
+      "type": 0,
+      "topic": null,
+      "nsfw": false,
+      "position": 0,
+      "parent": null,
+      "rateLimitPerUser": 0,
+      "permissions": [
+        {
+          "name": "@everyone",
+          "allow": "1024",
+          "deny": "0"
+        }
+      ]
+    },
+    {
+      "id": "1132308449347260448",
+      "name": "добавляй-бота",
+      "type": 0,
+      "topic": "",
+      "nsfw": false,
+      "position": 7,
+      "parent": {
+        "type": 4,
+        "guild": "947900483136278568",
+        "guildId": "947900483136278568",
+        "permissionOverwrites": [
+          "947900483136278568"
+        ],
+        "flags": 0,
+        "id": "947900483136278569",
+        "name": "Тестовые каналы",
+        "rawPosition": 0,
+        "parentId": null,
+        "createdTimestamp": 1646067486319
+      },
+      "rateLimitPerUser": 0,
+      "permissions": [
+        {
+          "name": "@everyone",
+          "allow": "0",
+          "deny": "0"
+        }
+      ]
+    }
+  ],
+  "roles": [
+    {
+      "name": "45345",
+      "color": "#1abc9c",
+      "hoist": false,
+      "permissions": "28587301797887",
+      "mentionable": false,
+      "position": 14,
+      "isEveryone": false
+    },
+    {
+      "name": "новая роль",
+      "color": "#000000",
+      "hoist": false,
+      "permissions": "1071698660953",
+      "mentionable": false,
+      "position": 12,
+      "isEveryone": false
+    },
+    {
+      "name": "ленс тед",
+      "color": "#000000",
+      "hoist": false,
+      "permissions": "9868865424961",
+      "mentionable": false,
+      "position": 8,
+      "isEveryone": false
+    },
+    {
+      "name": "2",
+      "color": "#ad1457",
+      "hoist": false,
+      "permissions": "1071698660929",
+      "mentionable": false,
+      "position": 7,
+      "isEveryone": false
+    },
+    {
+      "name": "1",
+      "color": "#ad1457",
+      "hoist": false,
+      "permissions": "1071698660929",
+      "mentionable": false,
+      "position": 6,
+      "isEveryone": false
+    },
+    {
+      "name": "новая роль",
+      "color": "#000000",
+      "hoist": false,
+      "permissions": "1071698660945",
+      "mentionable": false,
+      "position": 5,
+      "isEveryone": false
+    },
+    {
+      "name": "231231231231",
+      "color": "#000000",
+      "hoist": false,
+      "permissions": "1071698660929",
+      "mentionable": false,
+      "position": 4,
+      "isEveryone": false
+    },
+    {
+      "name": "1",
+      "color": "#ad1457",
+      "hoist": false,
+      "permissions": "0",
+      "mentionable": false,
+      "position": 1,
+      "isEveryone": false
+    },
+    {
+      "name": "@everyone",
+      "color": "#000000",
+      "hoist": false,
+      "permissions": "559623605571137",
+      "mentionable": false,
+      "position": 0,
+      "isEveryone": true
+    }
+  ],
+  "bans": [
+    {
+      "id": "919208880129601556",
+      "reason": null
+    }
+  ],
+  "emojis": [
+    {
+      "name": "accept",
+      "url": "https://cdn.discordapp.com/emojis/1012027481945026600.png"
+    },
+    {
+      "name": "rejected",
+      "url": "https://cdn.discordapp.com/emojis/1012027544301752381.png"
+    },
+    {
+      "name": "rejectedred",
+      "url": "https://cdn.discordapp.com/emojis/1012027577973616730.png"
+    },
+    {
+      "name": "__",
+      "url": "https://cdn.discordapp.com/emojis/1012027606473908284.png"
+    },
+    {
+      "name": "__",
+      "url": "https://cdn.discordapp.com/emojis/1012027626774339675.png"
+    },
+    {
+      "name": "__",
+      "url": "https://cdn.discordapp.com/emojis/1012027647175446630.png"
+    },
+    {
+      "name": "number2",
+      "url": "https://cdn.discordapp.com/emojis/1012027682839609486.png"
+    },
+    {
+      "name": "dislike",
+      "url": "https://cdn.discordapp.com/emojis/1012027705417543750.png"
+    },
+    {
+      "name": "like",
+      "url": "https://cdn.discordapp.com/emojis/1012027723188809848.png"
+    },
+    {
+      "name": "search",
+      "url": "https://cdn.discordapp.com/emojis/1012027742876876851.png"
+    },
+    {
+      "name": "document",
+      "url": "https://cdn.discordapp.com/emojis/1012027763542204476.png"
+    },
+    {
+      "name": "list",
+      "url": "https://cdn.discordapp.com/emojis/1012027782290735326.png"
+    },
+    {
+      "name": "number1",
+      "url": "https://cdn.discordapp.com/emojis/1012027801928474704.png"
+    },
+    {
+      "name": "notif",
+      "url": "https://cdn.discordapp.com/emojis/1012027825693405305.png"
+    },
+    {
+      "name": "add",
+      "url": "https://cdn.discordapp.com/emojis/1012027843087171634.png"
+    },
+    {
+      "name": "reverse",
+      "url": "https://cdn.discordapp.com/emojis/1012027867011493978.png"
+    },
+    {
+      "name": "number5",
+      "url": "https://cdn.discordapp.com/emojis/1012027887664238662.png"
+    },
+    {
+      "name": "menu",
+      "url": "https://cdn.discordapp.com/emojis/1012027914985938954.png"
+    },
+    {
+      "name": "__",
+      "url": "https://cdn.discordapp.com/emojis/1012027938239172689.png"
+    },
+    {
+      "name": "number3",
+      "url": "https://cdn.discordapp.com/emojis/1012027992572182659.png"
+    },
+    {
+      "name": "time",
+      "url": "https://cdn.discordapp.com/emojis/1012028032497754264.png"
+    },
+    {
+      "name": "user",
+      "url": "https://cdn.discordapp.com/emojis/1012028049841209385.png"
+    },
+    {
+      "name": "number4",
+      "url": "https://cdn.discordapp.com/emojis/1012028070372315146.png"
+    },
+    {
+      "name": "settings",
+      "url": "https://cdn.discordapp.com/emojis/1012028101145940008.png"
+    },
+    {
+      "name": "unlock",
+      "url": "https://cdn.discordapp.com/emojis/1012028118019625120.png"
+    },
+    {
+      "name": "lock",
+      "url": "https://cdn.discordapp.com/emojis/1012028131663687790.png"
+    },
+    {
+      "name": "1585csgo",
+      "url": "https://cdn.discordapp.com/emojis/1046069124071166085.png"
+    }
+  ],
+  "options": {
+    "name": "nuclear test server",
+    "iconURL": null,
+    "mfaLevel": 0,
+    "afkChannelId": null,
+    "afkTimeout": 300,
+    "verificationLevel": 0
+  }
+}

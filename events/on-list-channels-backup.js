@@ -18,7 +18,6 @@ module.exports = {
         channels = options.channels;
         let mapCategories = interaction.guild.channels.cache.filter((c) => c.type == 4);
         let categories = Array.from(mapCategories, ([name, value]) => ({ name, value }));
-        await interaction.deferReply()
         for (const c of channels) { // отбирает категории, записывает их старый ид и создаёт их
             if (c.type == 4) {
                 await interaction.guild.channels.create({
@@ -103,7 +102,6 @@ module.exports = {
                 }
             };
         };
-
-        await interaction.editReply('Каналы успешно загружены!')
+        await interaction.update({content: 'Каналы успешно загружены!', components: []});
     }
 };
