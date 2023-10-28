@@ -25,7 +25,7 @@ async function createBackup(guild) {
     };
     var date = new Date().toLocaleDateString();
     var time = new Date().toLocaleTimeString().toString().replace(/:/g, '.');
-    fs.writeFile(`./backups/${date + "_" + time + "_" + guild.id}.json`, JSON.stringify(file, null, 2), function (err) {if (err) return false}); // запись файла
+    await fs.writeFileSync(`./backups/${date + "_" + time + "_" + guild.id}.json`, JSON.stringify(file, null, 2), function (err) {if (err) return false}); // запись файла
 }
 
 function parseChannel(channel) {
