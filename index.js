@@ -221,4 +221,4 @@ setInterval(() => {
 process.on("uncaughtException", console.log);
 process.on("unhandledRejection", console.log);
 
-client.login('');
+client.login('MTE2MDQ5MDU2NzIyMjk1NjA4Mg.GWBZKp.abqbqKdCywcE3JL-Pr2IPqLh_-rt9MxejomSfA');

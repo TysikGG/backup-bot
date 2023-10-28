@@ -19,6 +19,12 @@ module.exports = {
                 description: `Выбрать \"${backup}\" для просмотра.`
             })
         })
+        if (!backupsArray.length) {
+            return interaction.reply({
+                ephemeral: true,
+                content: 'Список бэкапов пустой, создайте бэкап для вывода всех бэкапов'
+            })
+        }
         const row = new ActionRowBuilder()
         .setComponents([
             new StringSelectMenuBuilder()
@@ -26,7 +32,7 @@ module.exports = {
                 .setPlaceholder("Выберите резервное копирование")
                 .addOptions(backupsArray)
         ])
-        interaction.reply({ 
+        interaction.reply({
             ephemeral: true,
             embeds: [
                 new EmbedBuilder()
